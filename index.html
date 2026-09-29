@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PlanUp: Si todos pueden, tú también</title>
+  <meta name="description" content="PlanUp organiza tu plan de estudio en tus horas libres, da prioridad a tus exámenes y añade un repaso diario.">
+  <meta name="theme-color" content="#14204A">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%2314204A'/%3E%3Cpath d='M7 23h6v-5h6v-5h6' fill='none' stroke='%23FFD84D' stroke-width='3.2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="cabecera">
+    <div class="marca">
+      <svg width="34" height="34" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="9" fill="#14204A"/><path d="M7 23h6v-5h6v-5h6" fill="none" stroke="#FFD84D" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <span>PlanUp</span>
+    </div>
+    <h1 class="lema"><span class="marcado">Si todos pueden, tú también.</span></h1>
+    <p class="intro">Organiza tu estudio en tus horas libres y llega a los exámenes con calma.</p>
+  </header>
+
+  <nav id="pasos" aria-label="Pasos de PlanUp"></nav>
+  <main id="app" tabindex="-1"></main>
+
+  <dialog id="dlg" aria-label="Apuntes"></dialog>
+  <div id="aviso" role="status" aria-live="polite"></div>
+
+  <footer class="pie-web">
+    <p>PlanUp guarda tus datos solo en este navegador.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
